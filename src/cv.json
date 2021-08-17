@@ -1,0 +1,150 @@
+{
+  "personalInfo": {
+    "name": "👨‍💻 Delcio Polanco",
+    "position": "Software Developtment Manager",
+    "brief": "Systems and computer engineer with more than 7 years of experience in the development and management of software projects using agile frameworks, with knowledge of technologies to meet the needs within a competitive market.",
+    "email": "delciopolanco",
+    "emailDomain": "gmail.com",
+    "location": "Dominican Republic",
+    "gender": "Male",
+    "github": "delciopolanco",
+    "linkedin": "delciopolanco",
+    "twitter": "delciopolanco"
+  },
+  "educationInfo": {
+    "data": [
+      {
+        "school": {
+          "name": "Universidad Dominicana O&M",
+          "logoUrl": "https://cotidianidaduniversitaria.files.wordpress.com/2010/12/f0e3c-logo.jpg?w=255",
+          "acronym": "UDOYM",
+          "location": "Domincan Republic",
+          "url": "https://www.udoym.edu.do/"
+        },
+        "degree": "System and Computer Engineer",
+        "startYear": 2018,
+        "endYear": 2012
+      }
+    ]
+  },
+  "workExperience": {
+    "data": [
+      {
+        "company": {
+          "name": "Banco BHDLeon",
+          "logoUrl": "data:image/jpeg;base64,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",
+          "url": "www.bancobhdleon.com.do"
+        },
+        "title": "Software Developtment Manager",
+        "startYear": 2017,
+        "startMonth": 1,
+        "current": true,
+        "description": "We create the fastest and user-friendly internet banking in the Dominican Republic, using trend technologies such as Angular, Sprint boot, Microservices and Docker. Responsibilities: - Plan, organize and develop IT solutions that meet the users’ needs for the organization, manage banking initiatives with a team of professionals using agile development frameworks. - Carry out deployments to end customers under a scheme that allows business continuity. - Make code reviews that allow us maintain development standards within the team. - Help the team to achieve the technical requirements by guidance and mentoring. Awards: The “team transcendence 2017 and 2018” award in Banco BHDLeon."
+      },
+      {
+        "company": {
+          "name": "Banco BHD",
+          "logoUrl": "data:image/jpeg;base64,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",
+          "url": "www.bancobhdleon.com.do"
+        },
+        "title": "Software Developer",
+        "startYear": 2014,
+        "endYear": 2017,
+        "startMonth": 1,
+        "current": false,
+        "description": "I participated in the development of applications within the company for different business areas, using technologies such as angular, c #, java HTTP-Servlets using oracle database drivers and SQL Server. Responsibilities: - Write, debug and maintain the source code of a computer program, attend to the requests of the users in question oriented to financial services. - Participate in the design of installation documents for end-users. - Participate in the management of the requirements and use cases of the system to be developed. - Make technical documentation of each project. - Manage source code version control. - Participate in technical coordination meetings as required - Participate in the development of the system implementation plan. - Participate in functional implementation activities. - Maintenance of applications using the best software development practices and design patterns."
+      },
+      {
+        "company": {
+          "name": "Freelance",
+          "logoUrl": "",
+          "url": ""
+        },
+        "title": "Fullstack Software Developer",
+        "startYear": 208,
+        "endYear": 2024,
+        "startMonth": 1,
+        "current": false,
+        "description": "I have worked in information gathering, interface development, and systems maintenance, with which I have supported different companies and colleagues to bring large-scale solutions to the market, using technologies such as .Net Core, NodeJs, React, React-Native, Ionic, and Angular."
+      }
+    ]
+  },
+  "skillsAndTech": {
+    "technologies": [
+      {
+        "name": "Javascript",
+        "level": "advanced"
+      },
+      {
+        "name": "nodejs",
+        "level": "advanced"
+      },
+      {
+        "name": "C#",
+        "level": "advanced"
+      },
+      {
+        "name": "CSS",
+        "level": "Intermediate"
+      },
+      {
+        "name": "React",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Node.js",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Ionic",
+        "level": "Intermediate"
+      },
+      {
+        "name": "SQL",
+        "level": "Intermediate"
+      },
+      {
+        "name": "MySQL",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Typescript",
+        "level": "I"
+      },
+      {
+        "name": "php",
+        "level": "basic"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "name": "Merchant App",
+        "desc": "The next products and service b2b platform for small retail bussiness https://startup-registration.vercel.app/",
+        "stack": ["react", "redux", "sass", "nodejs", "nodejs", "SQL Server", "nestjs", "typescript", "postgress", "Ionic"],
+        "startYear": 2020
+      },
+      {
+        "name": "Condomin Web App",
+        "desc": "WebApp for building and housing administrations https://condominweb.herokuapp.com",
+        "stack": ["react", "redux", "sass", "nodejs", "typescript"],
+        "startYear": 2020
+      },
+      {
+        "name": "JadeTerijaki",
+        "desc": "It’s a web app to order online asian food, Jade is the largest asian chain of restaurants in the Dominican Republic. I helped in builing the websites and webapps https://www.jadeteriyaki.com/",
+        "stack": ["angular:4", "redux", "sass", "azure", "SQL Server", "EntityFramework"],
+        "startYear": 2019,
+        "endYear": 2020
+      },
+      {
+        "name": "JadeTerijaki Drivers App",
+        "desc": "https://startup-registration.vercel.app/",
+        "stack": ["React Native", "redux", "sass"],
+        "startYear": 2019,
+        "endYear": 2020
+      }
+    ]
+  }
+}
