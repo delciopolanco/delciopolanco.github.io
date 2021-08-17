@@ -96,6 +96,10 @@
         "level": "advanced"
       },
       {
+        "name": "Java",
+        "level": "Intermediate"
+      },
+      {
         "name": "CSS",
         "level": "Intermediate"
       },
@@ -124,7 +128,7 @@
         "level": "I"
       },
       {
-        "name": "php",
+        "name": "PHP",
         "level": "basic"
       }
     ]
