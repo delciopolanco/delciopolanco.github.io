@@ -182,7 +182,7 @@
         "endYear": 2021
       },
       {
-        "name": "Condomin Web App",
+        "name": "Condomin Web App (Not available)",
         "desc": "WebApp for building and housing administrations https://condominweb.herokuapp.com",
         "stack": ["react", "redux", "sass", "nodejs", "typescript"],
         "startYear": 2020
@@ -196,7 +196,7 @@
       },
       {
         "name": "JadeTerijaki Drivers App",
-        "desc": "https://startup-registration.vercel.app/",
+        "desc": "Jade drivers manage and assign deliveries to Jade's restauransts https://apps.apple.com/do/app/jade-app-driver/id1546942564",
         "stack": ["React Native", "redux", "sass"],
         "startYear": 2019,
         "endYear": 2020
