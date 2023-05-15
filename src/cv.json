@@ -43,6 +43,18 @@
     "data": [
       {
         "company": {
+          "name": "Nexton/ at BFA",
+          "logoUrl": "https://mma.prnewswire.com/media/1472361/BFA_Industries_Logo.jpg?p=facebook",
+          "url": "https://www.crunchbase.com/organization/beauty-for-all-industries"
+        },
+        "title": "Senior FullStack Developer",
+        "startYear": 2023,
+        "startMonth": 1,
+        "current": true,
+        "description": "As a Sr. Fullstack Engineer, I was able to design and implement solutions and product features, as well as support the live operation at the scale of user-facing critical Web and Mobile flows. Tech: React, Typescript, NodeJs, Kotlin, Proactor Mono"
+      },
+      {
+        "company": {
           "name": "Bairesdev/ at Faciligroup",
           "logoUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCcUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAIAcAmcAFGVsMFhpbDZKdDBZRXlqV1VTbWZYHAIoAGJGQk1EMGEwMDBhODcwMTAwMDA3ZDAyMDAwMDVlMDMwMDAwMGMwNDAwMDA5OTA0MDAwMDY5MDUwMDAwNDIwNjAwMDBjNTA2MDAwMDVmMDcwMDAwZGEwNzAwMDAzYTA5MDAwMP/bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP/bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP/CABEIAJQAlAMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAABgUEAgMB/8QAGgEBAQEBAQEBAAAAAAAAAAAAAAQFAwECBv/aAAwDAQACEAMQAAABhx98gAAAAAAAAAAAAAAAAAAAABXcapFa8HKmZfX5VZpobvGySW+F8dMUVZwAAACxjqGXS3Rmfo8mbtJi/DqvZBtpujjas3kGn+dAAAAe/Dz2j0ZHvj16Cb+vB78WPPj8/Kr7ZPrzdih98gAAAGhn1fC3R9GT+n8S+/MW5NmItfjj7yWtx8oaGEAAAAs4zVmvqfyZ4JtLuyS/DrNKC7pNWvnvnw+e8gvxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//EACUQAAICAQQBBAMBAAAAAAAAAAIDAQQABRASMBMRFDI0ICFgI//aAAgBAQABBQL+krLDwShU42iE4wCWWVqxOwKaRzxLjNSARLqpz61ttRXySA8zAYAdtUn/AE6tMZ+tnRyVQj1s72meV3UJSJJvDOC9RYbQ40CgbHlXh2kjlm5LI7FrNmRRbOTRZEJXLT9gzCqOHJj0nrpo8zBiBjD+GnfZ2sIFwlEiXVp48a+1suFeqXCxvqI8bHVV+vteseWcqWIaO2qfLqXdMAm+3GOYz8AtuHPfsyw8nz/Sf//EACgRAAICAQMCBAcAAAAAAAAAAAEDAgQABRESICEQEzEyM0BBUFFhYv/aAAgBAwEBPwH5arWNiRAOT0pse8e+EEHY4ig1w5DsMfp0kr5k9WmMEXbH6+F9ANiP9YBt2GaowRTx/PUDtiLtoj28ssOdJsDKGxGTt2gPh41s2y5T6qKQ5ux9M9MvMAsL/XhqiBx80dWn2IImTPJ6qoe0b45snT5yyvqgA4tGXLympMI+v2L/xAAkEQABBAEDAwUAAAAAAAAAAAACAAEDEQQQEiATITFAQVBSYf/aAAgBAgEBPwH00svTa0OWD+Uz2pMgA7KPJYy21yyhsNMeSo3/ADTEGzvnJBE3vSjAGAmZ0MMX2QAwNQ8sg9gdtIBuMtMSR72csiMpGoUOIT+UAMDUykxLewUMBgdv8F//xAAqEAABAgMGBQUBAAAAAAAAAAABAAIREjIDECEiMHExQVFhkSAjUmChgf/aAAgBAQAGPwL7IzI3h0WNm3wvbMpUrhjdHg3qqZt1Q3wmSgDbTs9r5+bUGjmg0cBewdtM2Z3F7x2TfPoc7ly0wWmBC90QPULC0ajnb5QmMMFW3yq47KVmVurkaSsZR/VGLVK1VMVMdljqY0jioNEBcdkNr8auRRB4jTB+WN7z2gmHv6I/IadntfKykftwBrH7fZ6YbK0wWAaFncT6Ko7qlqEwAh0+y//EACYQAQABAgUDBQEBAAAAAAAAAAERACEQMDFBUWFxsWCBkaHRIPD/2gAIAQEAAT8h9SPdRSqjCSHVOBuU5hDDVUfy7UTeTlzRpPj0iyozCMvtaGIwD86bUjigJgIMZOJP7yxnLj+mMobvxV57D9MWoE6OzL1kiGhATvBXlgxQeNdtNACRK0h+ehbhcX0mJXXlzUI7DXmhR3Lgneh8QpN6/wBDRkwPXNIgETZzPcv1dKEkDQMLF6q+xxZgD4NCHCQmXzonFyswe9GlpY+9v4sjYcsx2+CgSsFELTfnlg5cFc8sTc6OWTwGBZpngprSU40MSzJrRMW+maN5/mkHYHqV/9oADAMBAAIAAwAAABD33333333333333333333337P/AFz99999qCCDb99999uRLGV99999sDMCy999997UeEF999999999999999999999999999999999/8QAJxEBAAIAAwcEAwAAAAAAAAAAAQARITFRIEGBkaGx0RBhwfBAUHH/2gAIAQMBAT8Q/GpSUXCrDoevmOgpICATe/EZFarCtWtrSUrjn6VLoHnXaADIJrCjpj42kVmcJBVrT3yl8wYGuJLsU5vaXpt7bRkbGL9/sAFEBXet4p49K4aRp99pA6ErrCcZcj7wijMYLQpvPkiYtq3e5+i//8QAIhEBAAIBAwMFAAAAAAAAAAAAAQARISAxQRBAUVBhgaHR/9oACAECAQE/EO2MkXcUoJAFm0Rtl9oCFL1NecPRoyq2xPBDUglMSzC+CO74iXN/qUQxqVnc4i3ljU+fzpYJxxqM8DFswIB2iMifEMHg9C//xAApEAEAAQIEBgICAwEAAAAAAAABEQAhMUFRYRAwcYGhsZHBIGDR4fDx/9oACAEBAAE/EP1GTX85NTmOcsCVdWKPhXQHqsph0X+ykfd8JkjmcGm9oWSrQZ0Ak1R4YUdBz/GVWgdQyhNOvLFA5nqKfXHGQJnVsJ6awbqdpcaGUMGxxENuy7/05aI5EnMcHZv34gKkL5ULLvnv+uKAVQDFcqFfM+0sPfHvy0yIgYjQlRZCXtieaEFuwr4aelsoSbO9Ik9siYM2gJRP8Z0kh2Qt+LVacglt6bG3NUrjFFjq4FFj0cz4Gr8tIENidKZVpJwAUiSI6SPqnwI0V8WasZ2QhO3MkCQQhbYOvqh0VAoDgxLAR+GmAuYnwcRgIwLrfU2qQAmkTlhDXI7TB4OJyEI3Gz7pmovWgP5fgUFAr1LPo5YCNbgyEBKrAFSXFI4YEmxwLvCIxZk13OIaqPycstdIgwa3oGN1H7NWXGMfQW4pBEDIjCUCEHL2cfNELtrZ91GWqCWfXp+y/wD/2Q==",
           "url": "https://facilisgroup.com/"
@@ -50,8 +62,9 @@
         "title": "Senior React Developer",
         "startYear": 2021,
         "startMonth": 12,
-        "current": true,
-        "description": "The purpose of this project is to create a Reactjs and MaterialUI B2B APP to help the customers and providers to interact, share and have business intermediation with products and services. Write, debug, and maintain the source code of the programs. Participate in the design of installation documents for end-users. Participate in the management of the requirements and use cases of the system to be developed. Build software with best practices and worldwide standards to secure business continuation. Maintenance of applications using design and development patterns.  Responsible for writer unit testing with jest and react testing library."
+        "endYear": 2022,
+        "current": false,
+        "description": "The purpose of this project is to create a Reactjs and MaterialUI B2B APP to help the customers and providers to interact, share and have business intermediation with products and services. Write, debug, and maintain the source code of the programs. Participate in the design of installation documents for end-users. Participate in the management of the requirements and use cases of the system to be developed. Build software with best practices and worldwide standards to secure business continuation. Maintenance of applications using design and development patterns.  Responsible for writer unit testing with jest and react testing library. Tech: ReactJs, Typescript, React Testing Library, Recoil, Redux."
       },
       {
         "company": {
@@ -64,7 +77,7 @@
         "startMonth": 12,
         "endYear": 2021,
         "current": false,
-        "description": "The idea behind this project was to build and maintain an hybrid app on top of IONIC/Angular, this app ditches  your school’s card for all-in-one mobile ID, it is  also and mobile platform  that brings convenience and value  to the university  and hospital  campuses and also  allows users to manage funds, make food orders , open doors , and earns rewards."
+        "description": "The idea behind this project was to build and maintain an hybrid app on top of IONIC/Angular, this app ditches  your school’s card for all-in-one mobile ID, it is  also and mobile platform  that brings convenience and value  to the university  and hospital  campuses and also  allows users to manage funds, make food orders , open doors , and earns rewards. Tech: Angular, Typescript, Jest, Ionic Framework."
       },
       {
         "company": {
@@ -77,7 +90,7 @@
         "endYear": 2020,
         "startMonth": 1,
         "current": false,
-        "description": "The idea behind the latest project I participated was to migrate the internet banking and mobile banking platforms of banco BHD Leon, in which I have helped to implement features like dashboards, accounts transfers between internals and externals accounts, international wire transfers, credit card payments, onboarding of new clients, using trend technologies such as Angular, IONIC, Html/Sass, and with the help of a microservice architecture. Responsibilities: Developed front-end features/components, fixed bugs, performed unit testing, and code reviews. Participated in scrums ceremonies, daily standups, retrospectives, grooming and sprint reviews. Planned, organized, and developed IT solutions that meets the user’s needs for the project. Participate in technical interviews to evaluate new developers for the different projects within the organization. Awards: The “team transcendence 2017 and 2018” award in Banco BHD Leon."
+        "description": "The idea behind the latest project I participated was to migrate the internet banking and mobile banking platforms of banco BHD Leon, in which I have helped to implement features like dashboards, accounts transfers between internals and externals accounts, international wire transfers, credit card payments, onboarding of new clients, using trend technologies such as Angular, IONIC, Html/Sass, and with the help of a microservice architecture. Responsibilities: Developed front-end features/components, fixed bugs, performed unit testing, and code reviews. Participated in scrums ceremonies, daily standups, retrospectives, grooming and sprint reviews. Planned, organized, and developed IT solutions that meets the user’s needs for the project. Participate in technical interviews to evaluate new developers for the different projects within the organization. Awards: The “team transcendence 2017 and 2018” award in Banco BHD Leon. Tech: Angular, C#, SQL Server, Oracle, PHP, DB2, Java 1.8"
       },
       {
         "company": {
@@ -90,7 +103,7 @@
         "endYear": 2017,
         "startMonth": 1,
         "current": false,
-        "description": "I participated in the development of applications within the company for different business areas, using technologies such as angular, c #, java HTTP-Servlets using oracle database drivers and SQL Server. Responsibilities: - Write, debug and maintain the source code of a computer program, attend to the requests of the users in question oriented to financial services. - Participate in the design of installation documents for end-users. - Participate in the management of the requirements and use cases of the system to be developed. - Make technical documentation of each project. - Manage source code version control. - Participate in technical coordination meetings as required - Participate in the development of the system implementation plan. - Participate in functional implementation activities. - Maintenance of applications using the best software development practices and design patterns."
+        "description": "I participated in the development of applications within the company for different business areas, using technologies such as angular, c #, java HTTP-Servlets using oracle database drivers and SQL Server. Responsibilities: - Write, debug and maintain the source code of a computer program, attend to the requests of the users in question oriented to financial services. - Participate in the design of installation documents for end-users. - Participate in the management of the requirements and use cases of the system to be developed. - Make technical documentation of each project. - Manage source code version control. - Participate in technical coordination meetings as required - Participate in the development of the system implementation plan. - Participate in functional implementation activities. - Maintenance of applications using the best software development practices and design patterns. Tech: C#, ASP.net, SQL Server, DB2."
       },
       {
         "company": {
@@ -131,27 +144,31 @@
         "level": "advanced"
       },
       {
-        "name": "C#",
+        "name": "React",
         "level": "advanced"
       },
       {
-        "name": "Java",
-        "level": "Intermediate"
+        "name": "Angular",
+        "level":"advanced"
       },
       {
-        "name": "CSS",
-        "level": "Intermediate"
-      },
-      {
-        "name": "React",
-        "level": "Intermediate"
-      },
-      {
-        "name": "Node.js",
-        "level": "Intermediate"
+        "name": "Typescript",
+        "level": "advanced"
       },
       {
         "name": "Ionic",
+        "level": "advanced"
+      },
+      {
+        "name": "CSS",
+        "level": "advanced"
+      },
+      {
+        "name": "C#",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Java",
         "level": "Intermediate"
       },
       {
@@ -161,10 +178,6 @@
       {
         "name": "MySQL",
         "level": "Intermediate"
-      },
-      {
-        "name": "Typescript",
-        "level": "I"
       },
       {
         "name": "PHP",
@@ -182,22 +195,16 @@
         "endYear": 2021
       },
       {
-        "name": "Condomin Web App (Not available)",
-        "desc": "WebApp for building and housing administrations https://condominweb.herokuapp.com",
-        "stack": ["react", "redux", "sass", "nodejs", "typescript"],
-        "startYear": 2020
-      },
-      {
         "name": "JadeTerijaki",
         "desc": "It’s a web app to order online asian food, Jade is the largest asian chain of restaurants in the Dominican Republic. I helped in builing the websites and webapps https://www.jadeteriyaki.com/",
-        "stack": ["angular:4", "redux", "sass", "azure", "SQL Server", "EntityFramework"],
+        "stack": ["angular:4", "redux", "sass", "azure", "SQL Server", "EntityFramework", "typescript"],
         "startYear": 2019,
         "endYear": 2020
       },
       {
         "name": "JadeTerijaki Drivers App",
         "desc": "Jade drivers manage and assign deliveries to Jade's restauransts https://apps.apple.com/do/app/jade-app-driver/id1546942564",
-        "stack": ["React Native", "redux", "sass"],
+        "stack": ["React Native", "redux", "sass", "typescript"],
         "startYear": 2019,
         "endYear": 2020
       }
