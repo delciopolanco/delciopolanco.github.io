@@ -49,8 +49,9 @@
         },
         "title": "Senior FullStack Developer",
         "startYear": 2023,
+        "endYear": 2023,
         "startMonth": 1,
-        "current": true,
+        "current": false,
         "description": "As a Sr. Fullstack Engineer, I was able to design and implement solutions and product features, as well as support the live operation at the scale of user-facing critical Web and Mobile flows. Tech: React, Typescript, NodeJs, Kotlin, Proactor Mono"
       },
       {
@@ -62,8 +63,7 @@
         "title": "Senior React Developer",
         "startYear": 2021,
         "startMonth": 12,
-        "endYear": 2022,
-        "current": false,
+        "current": true,
         "description": "The purpose of this project is to create a Reactjs and MaterialUI B2B APP to help the customers and providers to interact, share and have business intermediation with products and services. Write, debug, and maintain the source code of the programs. Participate in the design of installation documents for end-users. Participate in the management of the requirements and use cases of the system to be developed. Build software with best practices and worldwide standards to secure business continuation. Maintenance of applications using design and development patterns.  Responsible for writer unit testing with jest and react testing library. Tech: ReactJs, Typescript, React Testing Library, Recoil, Redux."
       },
       {
@@ -149,7 +149,7 @@
       },
       {
         "name": "Angular",
-        "level":"advanced"
+        "level": "advanced"
       },
       {
         "name": "Typescript",
@@ -190,14 +190,33 @@
       {
         "name": "Merchant App",
         "desc": "The next products and service b2b platform for small retail bussiness https://startup-registration.vercel.app/",
-        "stack": ["react", "redux", "sass", "nodejs", "nodejs", "SQL Server", "nestjs", "typescript", "postgress", "Ionic"],
+        "stack": [
+          "react",
+          "redux",
+          "sass",
+          "nodejs",
+          "nodejs",
+          "SQL Server",
+          "nestjs",
+          "typescript",
+          "postgress",
+          "Ionic"
+        ],
         "startYear": 2020,
         "endYear": 2021
       },
       {
         "name": "JadeTerijaki",
         "desc": "It’s a web app to order online asian food, Jade is the largest asian chain of restaurants in the Dominican Republic. I helped in builing the websites and webapps https://www.jadeteriyaki.com/",
-        "stack": ["angular:4", "redux", "sass", "azure", "SQL Server", "EntityFramework", "typescript"],
+        "stack": [
+          "angular:4",
+          "redux",
+          "sass",
+          "azure",
+          "SQL Server",
+          "EntityFramework",
+          "typescript"
+        ],
         "startYear": 2019,
         "endYear": 2020
       },
