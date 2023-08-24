@@ -1,0 +1,166 @@
+.projects {
+  height: 85vh;
+  text-align: center;
+}
+
+.projects .title {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.projects h3 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.projects .title p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.slider-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.slider {
+  width: 80%;
+  max-width: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+}
+
+.slide-description {
+  font-size: 14px;
+  background: #f8f8f8;
+  color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  color: #fff;
+}
+
+.prev {
+  left: 10%;
+}
+
+.next {
+  right: 10%;
+}
+
+.icon-right {
+  display: block;
+  mask-size: contain;
+  mask-position: 50% 50%;
+  mask-repeat: no-repeat;
+  background: currentColor;
+  width: 1em;
+  height: 1em;
+  mask-image: url('../../assets/right.svg');
+
+  &:hover {
+    color: #a51117;
+  }
+}
+
+.icon-left {
+  display: block;
+  mask-size: contain;
+  mask-position: 50% 50%;
+  mask-repeat: no-repeat;
+  background: currentColor;
+  width: 1em;
+  height: 1em;
+  mask-image: url('../../assets/left.svg');
+
+  &:hover {
+    color: #a51117;
+  }
+}
+
+.tech-pills-container {
+  margin-top: 1em;
+  margin-top: 1em;
+}
+
+.tech-pills {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  font-size: 12px;
+}
+
+.tech-pill {
+  margin: 0 10px;
+  padding: 5px 10px;
+  background-color: #cecece;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+}
+
+.tech-pill.active {
+  background-color: #a51117;
+}
+
+/* For Tablet View (768px and below) */
+@media (max-width: 768px) {
+  .prev {
+    left: -5%;
+  }
+
+  .next {
+    right: -5%;
+  }
+
+  .tech-pills-container {
+    display: none;
+  }
+}

@@ -1,0 +1,139 @@
+section.home {
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-bottom: 20em;
+}
+
+.home .title {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  width: 100%;
+  gap: 2rem;
+}
+
+.home .title .title_info h1 {
+  color: #fff;
+  font-size: 7rem;
+  margin-bottom: 0;
+}
+
+.home .title .title_info .name {
+  color: #a51117;
+  font-size: 10rem;
+  line-height: 1;
+}
+
+.home .title .title_info .Typewriter {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.home .title .title_image {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+}
+
+.home .title .title_image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.home .social {
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 2.5rem;
+  flex-direction: row;
+  align-self: flex-end;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.home .social a {
+  color: #fff;
+}
+
+.icon-github {
+  display: block;
+  mask-size: contain;
+  mask-position: 50% 50%;
+  mask-repeat: no-repeat;
+  background: currentColor;
+  width: 2em;
+  height: 2em;
+  mask-image: url('../../assets/github.svg');
+}
+
+.icon-linkedin {
+  display: block;
+  mask-size: contain;
+  mask-position: 50% 50%;
+  mask-repeat: no-repeat;
+  background: currentColor;
+  width: 2em;
+  height: 2em;
+  mask-image: url('../../assets/linkedin.svg');
+}
+
+/* For Tablet View (768px and below) */
+@media (max-width: 768px) {
+  .home .title {
+    grid-template-columns: 1fr; /* Change to a single column layout */
+    gap: 1rem; /* Reduce the gap between title sections */
+  }
+
+  .home .title .title_info h1 {
+    font-size: 4rem; /* Adjust font size for better readability */
+  }
+
+  .home .title .title_info .name {
+    font-size: 6rem; /* Adjust font size for better readability */
+  }
+
+  .home .title .title_info .Typewriter {
+    font-size: 1.5rem; /* Adjust font size for better readability */
+  }
+
+  .home .title .title_image {
+    margin-top: 2rem; /* Reduce the top margin */
+  }
+
+  .home .social {
+    padding-bottom: 1.5rem; /* Reduce the bottom padding for social icons */
+  }
+}
+
+/* For Mobile View (576px and below) */
+@media (max-width: 576px) {
+  .home .title .title_info h1 {
+    font-size: 3rem; /* Adjust font size for better readability */
+    text-align: center;
+  }
+
+  .home .title .title_info .name {
+    font-size: 4rem; /* Adjust font size for better readability */
+  }
+
+  .home .title .title_info .Typewriter {
+    font-size: 1rem; /* Adjust font size for better readability */
+    text-align: center;
+  }
+
+  .home .title .title_image {
+    display: none; /* Hide the image on mobile */
+  }
+
+  .home .social {
+    flex-direction: row; /* Stack social icons vertically */
+    align-items: center; /* Center align social icons */
+    gap: 1rem; /* Add some spacing between social icons */
+    padding-bottom: 1rem; /* Reduce the bottom padding for social icons */
+    justify-content: space-around;
+  }
+}

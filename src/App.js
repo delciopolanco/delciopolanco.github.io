@@ -1,13 +1,11 @@
 import './App.css';
-import { TemplateLean } from '@allamgr/portafolio'
 import jsonData from './cv.json';
+import CustomTemplate from './CustomTemplate/customTemplate';
 
 function App() {
-
-  let json = JSON.stringify(jsonData);
   return (
-    <div className="App container">
-      <TemplateLean json={json} />
+    <div className='App container'>
+      <CustomTemplate jsonData={jsonData} />
     </div>
   );
 }
