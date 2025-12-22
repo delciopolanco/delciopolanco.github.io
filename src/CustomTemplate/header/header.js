@@ -1,15 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './header.css';
 
 export const Header = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [menuOpen, setMenuOpen] = useState(false);
-  const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'dark');
 
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
-  }, [theme]);
 
   const handleNavLinkClick = (link) => {
     setActiveLink(link);
@@ -18,41 +13,14 @@ export const Header = () => {
     if (section) section.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const toggleMenu = () => setMenuOpen((s) => !s);
-  const toggleTheme = () => setTheme((t) => (t === 'dark' ? 'light' : 'dark'));
-
   return (
     <header className='header'>
       <nav className={`top-nav ${menuOpen ? 'open' : ''}`} aria-label='Main navigation'>
         <a className='brand' href='#home' onClick={() => handleNavLinkClick('home') } aria-label="Home">
-          <span className='brand-logo' aria-hidden='true'>DP</span>
-          <span className='brand-text'>Delcio</span>
+          <span className='brand-text'>Delcio Polanco</span>
         </a>
 
-        <div className='controls'>
-          <button
-            className='theme-toggle'
-            onClick={toggleTheme}
-            aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
-            title='Toggle theme'
-          >
-            <svg width='18' height='18' viewBox='0 0 24 24' fill='none' aria-hidden='true'>
-              <path d='M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z' fill='currentColor' />
-            </svg>
-          </button>
-
-          <input
-            id='menu-toggle'
-            type='checkbox'
-            checked={menuOpen}
-            onChange={toggleMenu}
-            aria-label='Toggle menu'
-            aria-expanded={menuOpen}
-          />
-          <label className='menu-button-container' htmlFor='menu-toggle' aria-hidden='true'>
-            <div className='menu-button'></div>
-          </label>
-        </div>
+        <div className='controls'></div>
 
         <ul className='menu' role='menubar'>
           <li
@@ -78,6 +46,16 @@ export const Header = () => {
           <li
             role='menuitem'
             tabIndex={0}
+            className={`nav-link ${activeLink === 'experience' ? 'active' : ''}`}
+            onClick={() => handleNavLinkClick('experience')}
+            onKeyDown={(e) => e.key === 'Enter' && handleNavLinkClick('experience')}
+          >
+            Experience
+          </li>
+
+          <li
+            role='menuitem'
+            tabIndex={0}
             className={`nav-link ${activeLink === 'projects' ? 'active' : ''}`}
             onClick={() => handleNavLinkClick('projects')}
             onKeyDown={(e) => e.key === 'Enter' && handleNavLinkClick('projects')}
@@ -86,7 +64,13 @@ export const Header = () => {
           </li>
 
           <li className='menu-cta'>
-            <a className='btn btn-ghost' href='mailto:hello@delciopolanco.com' aria-label='Contact via email'>Email</a>
+            <a 
+              className='btn btn-ghost' 
+              href='mailto:delciopolanco@gmail.com?subject=Hiring%20Inquiry%20-%20Senior%20Software%20Engineer&body=Hi%20Delcio,%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20I%27m%20interested%20in%20discussing%20a%20potential%20opportunity.%0D%0A%0D%0A[Please%20share%20details%20about%20the%20role%20and%20your%20company]%0D%0A%0D%0ABest%20regards,' 
+              aria-label='Contact via email to discuss opportunities'
+            >
+              Hire Me
+            </a>
           </li>
         </ul>
 

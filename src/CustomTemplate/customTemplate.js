@@ -1,10 +1,10 @@
+import { useEffect } from 'react';
 import './customTemplate.css';
-import React, { useEffect } from 'react';
+import { Experience } from './experience/experience';
 import { Header } from './header/header';
 import { Home } from './home/home';
-import { Skills } from './skills/skills';
 import { Projects } from './projects/projects';
-import { Separator } from './shared/Separator';
+import { Skills } from './skills/skills';
 
 export const CustomTemplate = (props) => {
   useEffect(() => {
@@ -20,8 +20,8 @@ export const CustomTemplate = (props) => {
       <Header />
       <Home />
       <Skills />
-      <Separator />
       <Projects />
+      <Experience />
     </main>
   );
 };
