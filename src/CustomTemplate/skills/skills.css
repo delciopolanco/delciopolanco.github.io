@@ -27,7 +27,8 @@
   margin-bottom: 2em;
   padding: 25px 30px;
   width: 100%;
-  background: #fff;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  color: var(--text);
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
@@ -74,7 +75,7 @@
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  background: #a51117;
+  background: var(--accent-2);
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 

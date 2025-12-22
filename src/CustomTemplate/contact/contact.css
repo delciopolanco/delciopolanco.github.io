@@ -1,0 +1,6 @@
+/* Contact form styles */
+  .form-status .success { color: var(--accent-3); }
+  .form-status .error { color: var(--accent-2); }
+
+  /* small decorative rule between projects and contact */
+  .contact { border-top: 1px solid rgba(255,255,255,0.03); padding-top: 4rem; }

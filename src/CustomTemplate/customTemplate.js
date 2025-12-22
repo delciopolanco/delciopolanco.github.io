@@ -4,6 +4,9 @@ import { Header } from './header/header';
 import { Home } from './home/home';
 import { Skills } from './skills/skills';
 import { Projects } from './projects/projects';
+import { Contact } from './contact/contact';
+import { Separator } from './shared/Separator';
+import { Footer } from './footer/Footer';
 
 export const CustomTemplate = (props) => {
   useEffect(() => {
@@ -20,6 +23,9 @@ export const CustomTemplate = (props) => {
       <Home />
       <Skills />
       <Projects />
+      <Separator />
+      <Contact />
+      <Footer />
     </main>
   );
 };

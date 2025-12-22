@@ -1,0 +1,12 @@
+.separator { display: block; line-height: 0; }
+.separator-svg { display: block; width: 100%; height: 72px; }
+
+/* Slight overlap to visually separate sections */
+.separator-wave { margin-top: 3.5rem; margin-bottom: -2px; }
+
+/* In light theme invert gradient to remain visible */
+:root[data-theme='light'] .separator svg path { opacity: 0.9 }
+
+@media (max-width: 640px) {
+  .separator-svg { height: 56px; }
+}
