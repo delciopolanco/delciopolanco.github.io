@@ -1,5 +1,5 @@
 import './home.css';
-import foto from '../../assets/foto-2.png';
+import foto from '../../assets/foto-3.png';
 import Typewriter from 'typewriter-effect';
 
 export const Home = () => {
