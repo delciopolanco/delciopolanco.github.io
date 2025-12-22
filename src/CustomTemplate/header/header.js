@@ -85,7 +85,6 @@ export const Header = () => {
             Projects
           </li>
 
-          <li role='menuitem' tabIndex={0} className={`nav-link ${activeLink === 'contact' ? 'active' : ''}`} onClick={() => handleNavLinkClick('contact')} onKeyDown={(e)=>e.key==='Enter'&&handleNavLinkClick('contact')}>Contact</li>
           <li className='menu-cta'>
             <a className='btn btn-ghost' href='mailto:hello@delciopolanco.com' aria-label='Contact via email'>Email</a>
           </li>
