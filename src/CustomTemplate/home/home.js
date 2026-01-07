@@ -1,5 +1,4 @@
 import './home.css';
-import foto from '../../assets/foto-3.png';
 import Typewriter from 'typewriter-effect';
 import { useCallback } from 'react';
 
