@@ -109,10 +109,6 @@ export const Home = () => {
             </a>
           </div>
         </div>
-
-        <div className='hero-image' aria-hidden='true'>
-          <img alt='Portrait of Delcio' src={foto} loading='lazy' />
-        </div>
       </div>
     </section>
   );
